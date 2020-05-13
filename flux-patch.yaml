@@ -10,5 +10,5 @@ spec:
       $setElementOrder/containers:
       - name: demo-gitops
       containers:
-      - image: beopenit/gitops-demo:v.0.0.1.cd7d81c
+      - image: beopenit/gitops-demo:v.0.0.1.6c8cf3b
         name: demo-gitops
