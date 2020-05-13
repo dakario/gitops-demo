@@ -1,0 +1,14 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-gitops
+  namespace: demo-gitops
+spec:
+  template:
+    spec:
+      $setElementOrder/containers:
+      - name: demo-gitops
+      containers:
+      - image: beopenit/gitops-demo:v.0.0.1.5439187
+        name: demo-gitops
