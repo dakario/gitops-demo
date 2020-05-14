@@ -1,0 +1,1 @@
+{"jobID":"560be924-eab4-80eb-fe8b-b1cf7f751ed8","spec":{"type":"policy","cause":{"Message":"","User":"modoulo \u003cmodoulobolysow@gmail.com\u003e"},"spec":{"demo-gitops:deployment/demo-gitops":{"add":{},"remove":{"automated":"true"}}}},"result":null}
