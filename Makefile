@@ -1,4 +1,4 @@
-VERSION=0.0.1
+VERSION=0.0.2
 TAG ?= $(shell git log -1 --format=%h)
 IMAGE=gitops-demo
 ORG=beopenit
