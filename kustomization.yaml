@@ -1,3 +1,0 @@
-namespace: demo-gitops
-bases:
-  - ./workloads/
