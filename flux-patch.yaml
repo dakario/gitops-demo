@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    fluxcd.io/automated: true
+    fluxcd.io/automated: false
   name: demo-gitops
   namespace: demo-gitops
 spec:
@@ -12,5 +12,5 @@ spec:
       $setElementOrder/containers:
       - name: demo-gitops
       containers:
-      - image: beopenit/gitops-demo:v.0.0.3.cf58c7e
+      - image: beopenit/gitops-demo:v.0.0.1.51f2970
         name: demo-gitops
